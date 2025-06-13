@@ -1,0 +1,10 @@
+<?php
+
+namespace App\Domain\Cliente\Contracts;
+
+use App\Domain\Cliente\Entities\Cliente;
+
+interface ClienteRepositoryInterface
+{
+    public function salvar(Cliente $cliente): void;
+}
